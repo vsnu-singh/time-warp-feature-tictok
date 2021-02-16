@@ -4,11 +4,11 @@
 
 #We will be also implementing 3d video converter to it
 
-#for using timewarp you can simply call timewarp(mode,orientation) where mode is "v" for verical and "h" for horizontal orientation is 1 for top down or left to right flow -1 is opposite flow
+#for using timewarp you can simply call timewarp(mode,orientation) where mode is "v" for vertical and "h" for horizontal. orientation is 1 for top down or left to right flow -1 is opposite flow
 
-#timewarp() will take default mode as "v" and default orientation as -1, it will return a cv2 image
+#timewarp() will take default mode as "v" and default orientation as 1, it will return a cv2 image
 
-#for using waterfall you can simply call waterfall(mode,orientation) where mode is "v" for verical and "h" for horizontal orientation is 1 for top down or left to right flow -1 is opposite flow
+#for using waterfall you can simply call waterfall(mode,orientation) where mode is "v" for vertical and "h" for horizontal. orientation is 1 for top down or left to right flow -1 is opposite flow
 
 #waterfall() will take default mode as "v" and default orientation as -1, it will return a cv2 image
 
